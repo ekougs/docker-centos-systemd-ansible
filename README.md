@@ -1,5 +1,7 @@
 # CentOS systemd Ansible Test Image
 
+[![Docker Automated build](https://img.shields.io/docker/automated/ekougs/centos-systemd-ansible.svg?maxAge=2592000)](https://hub.docker.com/r/ekougs/centos-systemd-ansible/)
+
 ## Build Instructions
 
 If you want to build this image yourself, you could perform the following steps:
