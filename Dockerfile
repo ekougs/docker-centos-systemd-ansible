@@ -1,7 +1,7 @@
 FROM centos:7.4.1708
 
 ENV container docker
-MAINTAINER Pascal Ekouaghe <pascal.ekouaghe@atos.net>
+MAINTAINER Pascal Ekouaghe <ekougs@gmail.com>
 
 RUN (cd /lib/systemd/system/sysinit.target.wants/; for i in *; do [ $i == systemd-tmpfiles-setup.service ] || rm -f $i; done); \
 rm -f /lib/systemd/system/multi-user.target.wants/*;\
