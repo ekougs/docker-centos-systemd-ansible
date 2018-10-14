@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:7.4.1708
 
 ENV container docker
 MAINTAINER Pascal Ekouaghe <pascal.ekouaghe@atos.net>
