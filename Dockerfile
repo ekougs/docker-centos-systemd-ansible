@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:7.5.1804
 
 ENV container docker
 MAINTAINER Pascal Ekouaghe <ekougs@gmail.com>

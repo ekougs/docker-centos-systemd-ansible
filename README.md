@@ -18,11 +18,11 @@ docker build -t centos-systemd-ansible .
 1. [Install Docker](https://docs.docker.com/engine/installation/).  
 2. Pull this image from Docker Hub
 ```
-docker pull ekougs/centos-systemd-ansible:latest
+docker pull ekougs/centos-systemd-ansible:7.5.1804
 ```  
 3. Run a container from the image (to test Ansible roles, also add a volume mounted from your current working directory with `--volume=`pwd`:/etc/ansible/roles/role_under_test:ro`)
 ```
-docker run --detach --privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro ekougs/centos-systemd-ansible:latest
+docker run --detach --privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro ekougs/centos-systemd-ansible:7.5.1804
 ```  
 4. Use Ansible inside the container
 ```
